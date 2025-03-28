@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://yifan-04.github.io/yepingfeng/blog/</loc>
     <lastmod>2025-03-25T01:17:13+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/hello/</loc>
+    <loc>https://yifan-04.github.io/yepingfeng/blog/hello/</loc>
     <lastmod>2025-03-25T01:17:13+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://yifan-04.github.io/yepingfeng/</loc>
     <lastmod>2025-03-25T01:17:13+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/course/</loc>
+    <loc>https://yifan-04.github.io/yepingfeng/course/</loc>
     <lastmod>2025-03-25T01:17:13+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://yifan-04.github.io/yepingfeng/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://yifan-04.github.io/yepingfeng/tags/</loc>
   </url>
 </urlset>
