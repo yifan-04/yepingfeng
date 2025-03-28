@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on 凭锋的个人小站</title>
-    <link>https://yifan-04.github.io/yepingfeng/blog/</link>
+    <link>http://127.0.0.1:1313/blog/</link>
     <description>Recent content in Blogs on 凭锋的个人小站 created by </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 25 Mar 2025 01:17:13 +0800</lastBuildDate><atom:link href="https://yifan-04.github.io/yepingfeng/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Mar 2025 01:17:13 +0800</lastBuildDate><atom:link href="http://127.0.0.1:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>https://yifan-04.github.io/yepingfeng/blog/hello/</link>
+      <link>http://127.0.0.1:1313/blog/hello/</link>
       <pubDate>Tue, 25 Mar 2025 01:17:13 +0800</pubDate>
       
-      <guid>https://yifan-04.github.io/yepingfeng/blog/hello/</guid>
+      <guid>http://127.0.0.1:1313/blog/hello/</guid>
       <description>&lt;p&gt;你好，我的朋友，欢迎来到我的博客。&lt;/p&gt;
 &lt;p&gt;这是一段用于测试的文本&lt;/p&gt;</description>
     </item>
