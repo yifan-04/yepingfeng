@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>顾诵芬 - 感动中国人物</title>
+    <style>
+        .card-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+            margin-bottom: 60px; /* 添加底部边距避免与按钮重叠 */
+        }
+
+        .back-button {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        padding: 10px 20px;
+        background-color: #f5f5f5;
+        color: #333;
+        text-decoration: none;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        z-index: 100; /* 确保按钮在最上层 */
+    }
+
+        .card {
+            display: flex;
+            border: none;
+            /* 移除边框 */
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background-color: #f5f5f5;
+        }
+
+        .card-content {
+            padding: 20px;
+            flex: 1;
+            background-color: #f5f5f5;
+            /* 与卡片背景色一致 */
+        }
+
+        .card.top {
+            flex-direction: row;
+        }
+
+        .card.bottom {
+            flex-direction: column;
+        }
+
+        .card-image {
+            width: 300px;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+            flex: 1;
+        }
+
+        body {
+            background-image: url('./images/bg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            letter-spacing: 3px;
+            /* 全局字体加宽 */
+        }
+
+        h2 {
+            letter-spacing: 5px;
+            /* 姓名加宽5px */
+        }
+
+        p {
+            letter-spacing: 1px;
+            /* 正文加宽1px */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <div class="card-container">
+            <div class="card top">
+                <img src="./images/gusongfen.jpg" alt="顾诵芬" class="card-image">
+                <div class="card-content">
+                    <h2>顾诵芬</h2>
+                    <p>顾诵芬，1930年2月4日出生于江苏省苏州市，飞机空气动力学家，中国科学院学部委员，中国工程院院士，中国航空工业集团公司科技委研究员，中国航空研究院名誉院长。</p>
+                    <p>顾诵芬于1951年从交通大学航空工程系毕业，之后进入航空工业局生产处工作；1952年至1956年担任航空工业局飞机技术科工程师；1956年至1961年担任航空工业局飞机设计室高级工程师；1961年至1978年担任沈阳飞机设计研究所气动室高级工程师；1978年至1986年担任沈阳飞机设计研究所副所长、所长；1986年至1991年担任航空航天部科技委员会副主任；1988年担任航空航天研究院副院长、名誉院长；1991年当选为中国科学院学部委员（院士）；1994年当选为首批中国工程院院士；2010年担任中航工业科学技术委员会副主任；2021年11月获得2020年度国家最高科学技术奖。</p>
+                    <p>2022年3月3日被评为"感动中国2021年度人物"。顾诵芬主要从事飞机的气动力设计。</p>
+                </div>
+            </div>
+        </div>
+        <a href="index.html" class="back-button">返回首页</a>
+    </div>
+</body>
+
+<style>
+    .page-wrapper {
+        position: relative;
+        min-height: 100vh;
+        padding-bottom: 1px; /* 为按钮留出空间 */
+    }
+
+    .back-button {
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        padding: 10px 20px;
+        background-color: #f5f5f5;
+        color: #333;
+        text-decoration: none;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+</html>

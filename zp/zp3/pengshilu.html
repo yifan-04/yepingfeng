@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>彭士禄 - 感动中国人物</title>
+    <style>
+        .card-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            display: flex;
+            border: none; /* 移除边框 */
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background-color: #f5f5f5;
+        }
+
+        .card-content {
+            padding: 20px;
+            flex: 1;
+            background-color: #f5f5f5; /* 与卡片背景色一致 */
+        }
+
+        .card.top {
+            flex-direction: row;
+        }
+
+        .card.bottom {
+            flex-direction: column;
+        }
+
+        .card-image {
+            width: 300px;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+            flex: 1;
+        }
+
+        body {
+            background-image: url('./images/bg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            letter-spacing: 3px; /* 全局字体加宽 */
+        }
+
+        h2 {
+            letter-spacing: 5px; /* 姓名加宽5px */
+        }
+        
+        p {
+            letter-spacing: 1px; /* 正文加宽1px */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card-container">
+        <div class="card top">
+            <img src="./images/pengshilu.jfif" alt="彭士禄" class="card-image">
+            <div class="card-content">
+                <h2>彭士禄</h2>
+                <p>彭士禄（1925年11月18日—2021年3月22日），汉族，革命英烈彭湃之子，广东省汕尾市海丰县人。中国第一任核潜艇总设计师，中国工程院首批及资深院士，被誉为"中国核潜艇之父"。</p>
+                <p>1956年，彭士禄毕业于苏联莫斯科化工机械学院，后又在苏联莫斯科动力学院核动力专业进修。1958年回中国后一直从事核动力的研究设计工作，曾先后被任命为中国造船工业部副部长兼总工程师、中国水电部副部长兼总工程师、中国广东大亚湾核电站总指挥、中国国防科工委核潜艇技术顾问、中国核工业部总工程师兼科技委第二主任、中国秦山二期核电站联营公司首任董事长。</p>
+                <p>2021年3月22日，彭士禄在北京逝世，享年96岁；5月26日，彭士禄被追授为"时代楷模"。2022年3月3日，被判为"感动中国2021年度人物"。彭士禄是中国的核动力专家，中国核动力领域的开拓者和奠基者之一，为中国核动力的研究设计做出了开创性工作。</p>
+            </div>
+        </div>
+    </div>
+
+    <a href="index.html" class="back-button">返回首页</a>
+</body>
+
+<style>
+    .back-button {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        padding: 10px 20px;
+        background-color: #f5f5f5;
+        color: #333;
+        text-decoration: none;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+</style>
+
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>朱彦夫 - 感动中国人物</title>
+    <style>
+        .card-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+            margin-bottom: 60px; /* 添加底部边距避免与按钮重叠 */
+        }
+
+        .back-button {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        padding: 10px 20px;
+        background-color: #f5f5f5;
+        color: #333;
+        text-decoration: none;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        z-index: 100; /* 确保按钮在最上层 */
+    }
+
+        .card {
+            display: flex;
+            border: none;
+            /* 移除边框 */
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background-color: #f5f5f5;
+        }
+
+        .card-content {
+            padding: 20px;
+            flex: 1;
+            background-color: #f5f5f5;
+            /* 与卡片背景色一致 */
+        }
+
+        .card.top {
+            flex-direction: row;
+        }
+
+        .card.bottom {
+            flex-direction: column;
+        }
+
+        .card-image {
+            width: 300px;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+            flex: 1;
+        }
+
+        body {
+            background-image: url('./images/bg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            letter-spacing: 3px;
+            /* 全局字体加宽 */
+        }
+
+        h2 {
+            letter-spacing: 5px;
+            /* 姓名加宽5px */
+        }
+
+        p {
+            letter-spacing: 1px;
+            /* 正文加宽1px */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <div class="card-container">
+            <div class="card top">
+                <img src="./images/zhuliaofu.jfif" alt="朱彦夫" class="card-image">
+                <div class="card-content">
+                    <h2>朱彦夫</h2>
+                    <p>朱彦夫，男，汉族，中共党员，1933年7月出生，山东沂源人，一级伤残军人、曾任山东省沂源县西里镇张家泉村党支部书记。</p>
+                    <p>2014年3月，被中宣部授予"时代楷模"称号。2015年10月13日，被授予"全国敬业奉献模范"称号。2019年9月17日，被授予"人民楷模"国家荣誉称号；9月25日，获"最美奋斗者"个人称号。</p>
+                    <p>2022年3月，被评为"感动中国2021年度人物"。</p>
+                </div>
+            </div>
+        </div>
+        <a href="index.html" class="back-button">返回首页</a>
+    </div>
+</body>
+
+<style>
+    .page-wrapper {
+        position: relative;
+        min-height: 100vh;
+        padding-bottom: 1px; /* 为按钮留出空间 */
+    }
+
+    .back-button {
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        padding: 10px 20px;
+        background-color: #f5f5f5;
+        color: #333;
+        text-decoration: none;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+</html>

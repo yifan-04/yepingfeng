@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>杨振宁 - 感动中国人物</title>
+    <style>
+        .card-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+            margin-bottom: 60px; /* 添加底部边距避免与按钮重叠 */
+        }
+
+        .back-button {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        padding: 10px 20px;
+        background-color: #f5f5f5;
+        color: #333;
+        text-decoration: none;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        z-index: 100; /* 确保按钮在最上层 */
+    }
+
+        .card {
+            display: flex;
+            border: none;
+            /* 移除边框 */
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background-color: #f5f5f5;
+        }
+
+        .card-content {
+            padding: 20px;
+            flex: 1;
+            background-color: #f5f5f5;
+            /* 与卡片背景色一致 */
+        }
+
+        .card.top {
+            flex-direction: row;
+        }
+
+        .card.bottom {
+            flex-direction: column;
+        }
+
+        .card-image {
+            width: 300px;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+            flex: 1;
+        }
+
+        body {
+            background-image: url('./images/bg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            letter-spacing: 3px;
+            /* 全局字体加宽 */
+        }
+
+        h2 {
+            letter-spacing: 5px;
+            /* 姓名加宽5px */
+        }
+
+        p {
+            letter-spacing: 1px;
+            /* 正文加宽1px */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <div class="card-container">
+            <div class="card top">
+                <img src="./images/yangzhenning.jfif" alt="杨振宁" class="card-image">
+                <div class="card-content">
+                    <h2>杨振宁</h2>
+                    <p>杨振宁（YANG Chen
+                        Ning，Frank），1922年10月1日出生于安徽省合肥县（现肥西县），字伯瓌，理论物理学家，中国科学院院士，美国国家科学院外籍院士，英国皇家学会外籍院士，香港科学院荣誉院士，俄罗斯科学院院士，诺贝尔物理学奖获得者，香港中文大学理论物理研究所所长、博文讲座教授，清华大学高等研究院名誉院长、教授，纽约州立大学石溪分校荣休教授。
+                    </p>
+                    <p>杨振宁于1942年从西南联合大学物理系毕业。1944年，获得清华大学研究院硕士学位。1948年6月，获得芝加哥大学物理系哲学博士学位。1949年—1966年，任职于普林斯顿高等研究所。1957年10月，因"对（弱相互作用中）宇称不守恒定律的研究以及由此导致有关基本粒子方面的许多发现"，与李政道同获诺贝尔物理学奖。1964年3月，入籍美国。1965年，当选为美国国家科学院院士。1966年，任纽约州立大学石溪分校爱因斯坦讲座教授、物理研究所所长。1999年1月，在纽约州立大学石溪分校正式退休。2015年4月1日，放弃美国国籍。2017年2月，转为中国科学院院士。
+                    </p>
+                    <p>杨振宁主要从事统计力学和对称原理、粒子物理研究。20世纪50年代，和R.L.米尔斯合作提出非阿贝尔规范场理论。1956年，与李政道合作提出弱相互作用中宇称不守恒定律，于1957年成为首次获得诺贝尔物理学奖的中国人。提出的杨-巴克斯特方程开辟了量子可积系统和多体问题研究新方向。曾获得求是终身成就奖、爱因斯坦奖章、中国国际科技合作奖、鲍尔奖、费米奖、感动中国2021年度人物等奖项。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a href="index.html" class="back-button">返回首页</a>
+    </div>
+</body>
+
+<style>
+    .page-wrapper {
+        position: relative;
+        min-height: 100vh;
+        padding-bottom: 1px; /* 为按钮留出空间 */
+    }
+
+    .back-button {
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        padding: 10px 20px;
+        background-color: #f5f5f5;
+        color: #333;
+        text-decoration: none;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>吴天一 - 感动中国人物</title>
+    <style>
+        .card-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+            margin-bottom: 60px; /* 添加底部边距避免与按钮重叠 */
+        }
+
+        .back-button {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        padding: 10px 20px;
+        background-color: #f5f5f5;
+        color: #333;
+        text-decoration: none;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        z-index: 100; /* 确保按钮在最上层 */
+    }
+
+        .card {
+            display: flex;
+            border: none;
+            /* 移除边框 */
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background-color: #f5f5f5;
+        }
+
+        .card-content {
+            padding: 20px;
+            flex: 1;
+            background-color: #f5f5f5;
+            /* 与卡片背景色一致 */
+        }
+
+        .card.top {
+            flex-direction: row;
+        }
+
+        .card.bottom {
+            flex-direction: column;
+        }
+
+        .card-image {
+            width: 300px;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+            flex: 1;
+        }
+
+        body {
+            background-image: url('./images/bg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            letter-spacing: 3px;
+            /* 全局字体加宽 */
+        }
+
+        h2 {
+            letter-spacing: 5px;
+            /* 姓名加宽5px */
+        }
+
+        p {
+            letter-spacing: 1px;
+            /* 正文加宽1px */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <div class="card-container">
+            <div class="card top">
+                <img src="./images/wutianyi.jfif" alt="吴天一" class="card-image">
+                <div class="card-content">
+                    <h2>吴天一</h2>
+                    <p>吴天一，另名依斯玛义·赛里木江，塔吉克族，1935年6月25日出生于新疆维吾尔自治区伊犁哈萨克自治州，新疆维吾尔自治区喀什地区塔什库尔干塔吉克自治县人，高原医学事业的开拓者，中国工程院院士，中国医学科学院学术咨询委员会学部委员。青海民族大学"首席科学家""双聘院士""终身教授"。曾任青海省心脑血管病专科医院研究员、教授。</p>
+                    <p>吴天一长期在青藏高原从事高原医学研究工作。1956年，吴天一毕业于中国医科大学医疗系；1957年至1958年，在中国人民志愿军512医院工作；1958年至1970年，在解放军516医院工作；1970年至1978年，在青海西宁第一人民医院担任内科主任；1979年至1983年，在青海高原心脏病研究所担任副所长；1984年至2010年，在青海高原医学科学研究所先后担任副所长、所长、院长；2001年，当选为中国工程院院士；2010年，在青海高原医学科学研究院工作，2019年，被聘为中国医学科学院学术咨询委员会学部委员；2021年6月29日，中共中央授予吴天一"七一勋章"；2023年12月，被聘为青海省人民政府科技顾问。</p>
+                    <p>2022年3月3日，被评为"感动中国2021年度人物"。</p>
+                </div>
+            </div>
+        </div>
+        <a href="index.html" class="back-button">返回首页</a>
+    </div>
+</body>
+
+<style>
+    .page-wrapper {
+        position: relative;
+        min-height: 100vh;
+    }
+
+    .back-button {
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        padding: 10px 20px;
+        background-color: #f5f5f5;
+        color: #333;
+        text-decoration: none;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+</html>
